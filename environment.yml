@@ -1,0 +1,32 @@
+name: pangeo2
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.6
+  - bottleneck
+  - notebook
+  - numpy
+  - scipy
+  - xarray
+  - netcdf4
+  - dask
+  - jupyter
+  - matplotlib
+  - seaborn
+  - cartopy
+  - wrf-python
+  - holoviews
+  - statsmodels
+  - pandas
+  - jupyterlab
+  - scikit-learn
+  - cftime=1.4.1
+  - nc-time-axis
+  - pooch
+  - cmocean
+  - nodejs
+  - seaborn
+  - pip
+  - pip:
+    - pytest
